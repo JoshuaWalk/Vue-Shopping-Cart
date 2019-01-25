@@ -22,7 +22,8 @@ export default {
 
     decreaseInventory(state, product) {
       product.inventory--
-    }
+    },
+
   },
   actions: {
     fetchProducts({ commit }) {

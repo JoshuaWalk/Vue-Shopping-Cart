@@ -49,6 +49,10 @@ export default {
         }
         commit("decreaseInventory", product);
       }
+    },
+    clearCart({state, commit}) {
+      commit("emptyCart");
+      commit("increaseInventory")
     }
   },
 
@@ -61,6 +65,9 @@ export default {
     },
     increaseQuantity(state, cartItem) {
       cartItem.quantity++;
+    },
+    decreaseQuantity(state, cartItem) {
+      cartItem.quantity--
     },
     setCheckoutStatus(state, status) {
       state.checkoutStatus = status;

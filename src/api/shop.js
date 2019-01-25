@@ -1,7 +1,9 @@
 const _products = [
-    {"id": 1, "title": "Shrek T-shirt", "price": 40, "inventory": 2},
-    {"id": 2, "title": "Shrek Sountrack", "price": 10, "inventory": 10},
-    {"id": 3, "title": "Yeezys", "price": 250, "inventory": 20}
+    {"id": 1, "title": "T-shirt", "price": 40, "inventory": 2},
+    {"id": 2, "title": "CD", "price": 10, "inventory": 10},
+    {"id": 3, "title": "Shoes", "price": 25, "inventory": 20},
+    {"id": 4, "title": "Flip Flops", "price": 6, "inventory": 20},
+    {"id": 5, "title": "Membership", "price": 60, "inventory": 20},
   ]
   
   export default {
