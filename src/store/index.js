@@ -1,5 +1,6 @@
 import Vuex from "vuex"
 import Vue from "vue"
+import {firebaseMutations} from 'vuexfire'
 import cart from "./modules/cart"
 import products from "./modules/products"
 

@@ -11,7 +11,6 @@
             <br>
             {{`Quantity: ${product.quantity}`}}
             <br/>
-            <b-button @click="removeItem(cartItem)">Remove</b-button>
           </b-card>
         </li>
       </b-row>
