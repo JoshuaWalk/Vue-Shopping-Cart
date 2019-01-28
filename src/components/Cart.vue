@@ -25,6 +25,7 @@
     </template>
     <p>Total: ${{total}}</p>
     <p v-if="checkoutStatus">{{checkoutStatus}}</p>
+    <p>Thanks for shopping with us</p>
   </div>
 </template>
 
